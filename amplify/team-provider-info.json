@@ -1,0 +1,26 @@
+{
+    "kyndfe": {
+        "awscloudformation": {
+            "AuthRoleName": "frontend-kyndfe-20191015150611-authRole",
+            "UnauthRoleArn": "arn:aws:iam::056849046313:role/frontend-kyndfe-20191015150611-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::056849046313:role/frontend-kyndfe-20191015150611-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "frontend-kyndfe-20191015150611-deployment",
+            "UnauthRoleName": "frontend-kyndfe-20191015150611-unauthRole",
+            "StackName": "frontend-kyndfe-20191015150611",
+            "StackId": "arn:aws:cloudformation:us-east-1:056849046313:stack/frontend-kyndfe-20191015150611/822e3040-ef09-11e9-a221-0ad7f2019cc4"
+        }
+    },
+    "kyndawsfe": {
+        "awscloudformation": {
+            "AuthRoleName": "frontend-kyndawsfe-20191015154805-authRole",
+            "UnauthRoleArn": "arn:aws:iam::056849046313:role/frontend-kyndawsfe-20191015154805-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::056849046313:role/frontend-kyndawsfe-20191015154805-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "frontend-kyndawsfe-20191015154805-deployment",
+            "UnauthRoleName": "frontend-kyndawsfe-20191015154805-unauthRole",
+            "StackName": "frontend-kyndawsfe-20191015154805",
+            "StackId": "arn:aws:cloudformation:us-east-1:056849046313:stack/frontend-kyndawsfe-20191015154805/5cd8a2c0-ef0f-11e9-ab0a-12dffdf25cac"
+        }
+    }
+}

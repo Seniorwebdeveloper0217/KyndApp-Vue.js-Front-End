@@ -1,0 +1,17 @@
+/*=========================================================================================
+  File Name: moduleEcommerceGetters.js
+  Description: Ecommerce Module Getters
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+export default {
+  isInCart: state => itemId => {
+    return state.cartItems.some(item => item.objectID == itemId);
+  },
+  isInShortList: state => itemId => {
+    return state.shortList.some(item => item.objectID == itemId);
+  }
+};
